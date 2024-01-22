@@ -1,0 +1,13 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [FinanciamentoAmortizacao]
+      ,[FinanciamentoPrestacao]
+      ,[FinanciamentoSaldoDevedor]
+      ,[FinanciamentoFutureValue]
+      ,[FinanciamentoTotalParcela]
+      ,[FinanciamentoTotalAmortizacao]
+      ,[FinanciamentoTotalJuros]
+      ,[ClienteId]
+      ,[FinanciamentoValor]
+      ,[FinanciamentoId]
+      ,[FinanciamentoJuros]
+  FROM [Financiamento].[dbo].[Financiamento]
